@@ -3,7 +3,7 @@ import struct
 
 # Ustawienia multicastu
 MULTICAST_GROUP = '239.0.0.1'  # Twój adres multicast
-PORT = 5000                    # Port, na którym odbierasz dane
+PORT = 50000                    # Port, na którym odbierasz dane
 
 # Tworzymy gniazdo UDP
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM, socket.IPPROTO_UDP)
