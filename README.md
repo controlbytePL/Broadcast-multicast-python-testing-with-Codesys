@@ -43,7 +43,7 @@ For testing UDP Broadcast and Multicast messages, you can use the Python scripts
 
 ## Wireshark Filter
 
-To capture relevant UDP packets, use the following filter:
+To capture relevant UDP broadcast packets, use the following filter:
 
 ```plaintext
 udp.dstport == 50000 && ip.dst == 255.255.255.255
